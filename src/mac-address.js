@@ -29,7 +29,6 @@ function isMAC48Address(n) {
 
   return isValid.includes(false) ? false : true;
 }
-console.log(isMAC48Address('Z1-1B-63-84-45-E6'))
 
 module.exports = {
   isMAC48Address
